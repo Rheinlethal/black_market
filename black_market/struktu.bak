@@ -1,0 +1,26 @@
+black_market/
+├── config/
+│   ├── core.php
+│   └── database.php
+├── controllers/
+│   ├── AuthController.php
+│   ├── HomeController.php
+│   └── OrderController.php
+├── models/
+│   ├── User.php
+│   ├── Item.php
+│   ├── Order.php
+│   └── Category.php
+├── views/
+│   ├── layout/
+│   │   ├── header.php
+│   │   └── footer.php
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── register.php
+│   ├── home/
+│   │   └── index.php
+│   └── order/
+│       ├── create.php
+│       └── my_orders.php
+└── index.php

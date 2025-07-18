@@ -1,0 +1,44 @@
+black_market/
+├── config/
+│   ├── core.php
+│   └── database.php
+├── controllers/
+│   ├── AuthController.php
+│   ├── HomeController.php
+│   ├── OrderController.php
+│   ├── ItemController.php
+│   ├── ChatController.php
+│   ├── SearchController.php
+│   └── AdminController.php
+├── models/
+│   ├── User.php
+│   ├── Item.php
+│   ├── Order.php
+│   ├── Category.php
+│   └── Chat.php
+├── views/
+│   ├── layout/
+│   │   ├── header.php
+│   │   └── footer.php
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── register.php
+│   ├── home/
+│   │   └── index.php
+│   ├── order/
+│   │   ├── create.php
+│   │   └── my_orders.php
+│   ├── item/
+│   │   ├── manage.php
+│   │   └── add.php
+│   ├── chat/
+│   │   ├── index.php
+│   │   └── conversation.php
+│   ├── search/
+│   │   └── advanced.php
+│   └── admin/
+│       ├── dashboard.php
+│       ├── users.php
+│       ├── edit_user.php
+│       └── orders.php
+└── index.php
